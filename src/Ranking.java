@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Ranking {
 
@@ -16,6 +18,11 @@ public class Ranking {
     System.out.println("----- Resultado Final -----");
     System.out.println("Array de pontos:  " + Arrays.toString(scores));
     System.out.println("Array do ranking: " + Arrays.toString(ranks));
+
+    List<Integer> list = new ArrayList<>();
+    list.add(1);
+    list.add(2);
+    System.out.println(list.toString());
   }
 
   private static int[] getRanks(int[] scores) {
